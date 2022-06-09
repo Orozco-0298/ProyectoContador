@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+  
+}
+
+html,
+body {
+  background-color: #9c9c9c;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+  }
+
+  .contador-logo2-contenedor {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+  }
+
+  .contador-logo2 {
+    height: 350px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .contenedor-principal {
+    height: 750px;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+  }
